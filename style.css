@@ -19,7 +19,7 @@ html {
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	background: #F23838;
+	background: #32498C;
 	width: 100%;
 	padding: 0.5rem 0;
 	flex: 0 0 auto;
@@ -45,6 +45,7 @@ h3{
 	align-items:  center;
 	margin-top: 0.25rem;
 	margin-bottom: 0.25rem;
+	font-size: 1.8rem;
 }
 a:link {
   color: #6B98F2; 
@@ -59,7 +60,7 @@ a:hover {
 .footer {
 	margin-top: 1rem;;
    	width: 100%;
-   	background: #F23838;
+   	background: #32498C;
    	color: #F3EAFE;
    	flex: 0 0 auto;
 }
