@@ -79,7 +79,7 @@ a:hover {
 	margin-top: 0.25rem;
 }
 
-@media screen and (max-device-width:900px){
+@media screen and (max-device-width:1090px){
 .header{
 	font-size: 2rem;
 }
