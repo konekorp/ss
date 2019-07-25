@@ -79,11 +79,11 @@ a:hover {
 	margin-top: 0.25rem;
 }
 
-@media screen and (max-device-width:900px){
+@media handheld	{
 .header{
 	font-size: 2rem;
 }
-.header p{
+.header .mobile{
 	display: block;
 	padding-bottom: 0.5rem;
 }
