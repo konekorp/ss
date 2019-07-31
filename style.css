@@ -26,7 +26,7 @@ html {
 	color: #F3EAFE;	
 	margin: 0 1rem;
 }
-.header p {
+.header .mobile {
 	display: none;
 }
 .main {
@@ -77,17 +77,4 @@ a:hover {
 }
 .footer_copyrite {
 	margin-top: 0.25rem;
-}
-
-@media handheld	{
-.header{
-	font-size: 2rem;
-}
-.header .mobile{
-	display: block;
-	padding-bottom: 0.5rem;
-}
-.card{
-	font-size: 2.5rem;
-}
 }
