@@ -12,19 +12,31 @@ html {
 	flex-direction: column;
 	align-items:  center;
 	height: 100%;
-	background: #F3EAFE;
+	background: white;
+	background-image: url(icon/background.png);
 }
 .header {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	align-items: flex-end;
-	background: #32498C;
+	align-items: center;
+	background: black;
 	width: 100%;
+	height: 20rem;
 	padding: 0.5rem 0;
 	flex: 0 0 auto;
-	color: #F3EAFE;	
+	color: white;	
 	margin: 0 1rem;
+}
+.header h1{
+	font-size: 4rem;
+	border: 1rem solid black;
+	border-radius: 1rem;
+}
+.header div{
+	border: 1rem solid white;
+	border-radius: 2rem;
+	background: black;
 }
 .header .mobile {
 	display: none;
@@ -36,8 +48,28 @@ html {
 	flex: 1 0 auto;
 	margin-top: 1rem;
 }
-h3{
+.lenta{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.lenta img {
+	width: 9rem;
+	height: 9rem;
+	margin-left: 1.1rem;
+	margin-right: 1.1rem;
+	border-radius: 5rem;
+	transition-property: border-radius;
+	transition-duration: 1s;
+}
+.lenta img:hover {
+	border-radius: 0rem;
+
+}
+.card h3{
 	color: #27242B;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
 }
 .card {
 	display: flex;
@@ -45,25 +77,33 @@ h3{
 	align-items:  center;
 	margin-top: 1rem;
 	margin-bottom: 0.25rem;
+	background: white;
+	width: 40rem;
+	border: 0.1rem solid black;
+	border-radius: 1rem;
 }
 .card a {
-	margin-top: 0.25rem;
+	margin-bottom: 0.5rem;
+	font-size: 1rem;
+	transition-property: all;
+	transition-duration: 1s;
 }
-a:link {
-  color: #6B98F2; 
+.card a:link {
+	color: blue; 
 }
-a:visited {
-  color: #32498C;
+.card a:visited {
+	color: blue;
 }
-a:hover {
-  color: #27242B; 
+.card a:hover {
+	background: black;
+	color: white;
 }
 
 .footer {
 	margin-top: 1rem;;
    	width: 100%;
-   	background: #32498C;
-   	color: #F3EAFE;
+   	background: black;
+   	color: white;
    	flex: 0 0 auto;
 }
 .footer_info {
